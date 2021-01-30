@@ -1,4 +1,4 @@
-import "./Style/App.css"
+import "./Style/AppMain.css"
 import "./Style/AppGrid.css"
 
 
