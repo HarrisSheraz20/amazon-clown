@@ -6,7 +6,6 @@ import Header from "./Components/Header"
 
 function App() {
   return (
-    //BAM
     <div className="app">
       <Header  /> 
       {/* Home */}
