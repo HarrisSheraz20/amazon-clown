@@ -82,7 +82,7 @@ body{
 }
 
 
-/* css for Header component from lines 86 to 91 */
+/* css for home component from lines 86 to 91 */
 
 
 
@@ -109,7 +109,7 @@ body{
 }
 
 
-/* css for Header component from lines 96 to  */
+/* css for Product component from lines 96 to  */
 
 .product{
     display: flex;
@@ -154,3 +154,43 @@ body{
     display: flex;
 }
 
+
+/* css for Checkout component from lines 96 to  */
+
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+
+.checkout__ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout__title{
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+/* css for Subtotal component from lines 96 to  */
+
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 170px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+
+.subtotal__gift{
+    display: flex;
+    align-items: center;
+}
