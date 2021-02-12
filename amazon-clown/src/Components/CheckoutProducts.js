@@ -2,16 +2,17 @@ import React from 'react'
 import '../Style/AppMain.css'
 import { useStateValue } from './StateProvider';
 
-function CheckoutProducts({ id, image, title, price, rating }) {
-    const [{basket},dispatch] = useStateValue();
-    
 
-    const removeFromBasket= () =>{
+function CheckoutProducts({ id, image, title, price, rating }) {
+    const [{basket}, dispatch] = useStateValue();
+
+    const removeFromBasket = () =>{
         dispatch({
             type: 'REMOVE_FROM_BASKET',
-            id: id,  
+            id: id,
         })
     }
+
 
     return (
         <div className="checkoutProduct">
