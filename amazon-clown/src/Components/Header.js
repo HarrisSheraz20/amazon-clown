@@ -13,7 +13,9 @@ function Header() {
         <div className="header">
             <Link to="/">
             <div>
-                <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="logo"/>
+                <img 
+                className="header__logo" 
+                src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="logo"/>
             </div>
             </Link>
             
@@ -22,6 +24,7 @@ function Header() {
                 <SearchIcon className="header__searchIcon"/>
             </div>
             <div className="header__nav">
+                <Link to="/login">
                 <div className="header__option">
                     <span className="header__optionLineOne">
                         Hello Guest
@@ -30,6 +33,7 @@ function Header() {
                         Sign IN
                     </span>
                 </div>
+                </Link>
                 <div className="header__option">
                 <span className="header__optionLineOne">
                         Returns
